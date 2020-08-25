@@ -1,0 +1,32 @@
+body,h1 {
+    font-family: "Raleway", sans-serif;
+  }
+.w3-row{
+    text-align: center;
+    font-size: 50px;
+}  
+.container{
+    margin: 5%;
+}
+#city-form{
+    text-align: center;
+}
+#select-city{
+    background-color: #227EB8;
+}
+#firstDay-div{
+    background-color: #A4DFFD;
+}
+#secondDay-div{
+    background-color: #A4DFFD;
+}
+#thirdDay-div{
+    background-color: #A4DFFD;
+}
+#fourDay-div{
+    background-color: #A4DFFD;
+}
+#fifthDay-div{
+    background-color: #A4DFFD;
+}
+

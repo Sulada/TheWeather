@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The weather</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<!-- Bootstrap CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <a class="w3-row w3-padding w3-block w3-blue">Weather Dashboard</a>
+    <br>
+  <form id="city-form">
+
+    <label for="city-input">Search for a City</label>
+
+    <!-- Input city name-->
+    <input type="text" id="city-input">
+
+    <!-- Search button -->
+    <input id="select-city" type="submit" value="SEARCH">
+  </form>
+
+<br>
+  <!-- show weather -->
+    <div class="row">
+      <div class="col-sm-12">
+        <img id="weatherIcon">
+        <p id="city-div"></p>
+        
+      </div>
+    </div>
+    
+<div class="row">
+  <div class="col-sm-12">
+    <h2><p id="header"></p></h2>
+  </div>
+</div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <img id="weatherIcon1">
+        <p id="firstDay-div"></p>
+      </div>
+
+      <div class="col-sm-2">
+        <img id="weatherIcon2">
+        <p id="secondDay-div"></p>
+      </div>
+
+      <div class="col-sm-2">
+        <img id="weatherIcon3">
+        <p id="thirdDay-div"></p>
+      </div>
+
+      <div class="col-sm-2">
+        <img id="weatherIcon4">
+        <p id="fourDay-div"></p>
+      </div>
+
+      <div class="col-sm-2">
+        <img id="weatherIcon5">
+        <p id="fifthDay-div"></p>
+      </div>
+    </div>
+  
+</div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
